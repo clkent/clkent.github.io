@@ -1,0 +1,312 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+	<head>
+		<!-- <link rel="shortcut icon" href="favicon.ico" /> -->
+		<title>Disney Parks | Mobile Magic</title>
+
+		<meta charset="utf-8" />
+		
+		<!--For IE8 PNG issue mimic IE7-->
+		<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7,IE=9" >
+		
+		<meta name="copyright" content="2012" />
+		<meta name="description" content="default description" />
+		<meta name="keywords" content="default" />
+
+		<!--HTML5 -->
+		<!--[if lt IE 9]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+
+		<!--This is the fix for IE 7-8 PNG issue-->
+		<!--[if lt IE 8]>
+		<script type="text/javascript" src="js/IEpngfix.js"></script>
+		<script>
+		  	DD_belatedPNG.fix('#wrapper img');
+		</script>
+		<![endif]-->
+		
+		
+		<!--Replace files for mobile devices-->
+		<script type="text/javascript">
+		<!--
+		if (screen.width <= 699) {
+		document.location = "mobile/index.html";
+		}
+		//-->
+		</script>
+		
+		
+		<!--Replace files for iphone and ipad-->
+		<script language=javascript>
+		if((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i)) || (navigator.userAgent.match(/iPad/i)))
+		{
+		location.replace("mobile/index.html");
+		}
+		</script>
+		
+			
+		<!--JS-->
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script src="js/jquery-ui-1.8.18.custom.min.js"></script>
+		<script type="text/javascript" src="js/fn.js"></script>
+
+		
+		<link rel="stylesheet" href="css/style.css" media="screen" />
+	</head>
+
+	<body>
+		
+		<div id="wrapper">
+			
+			<!--HEADER NAV-->
+			<header id="head">
+			
+				<!--top bar-->
+				<!-- <div id="top-bar">
+					<div><img src="img/sm-logo.png" alt="Disney" /> <p>View the Disney Family of sites &#9654;</p></div>
+				</div> -->
+				
+				<!--main nav bar-->
+				<nav id="prime-nav">
+					<div>
+						<a  id="logo" href=""><img src="img/main-logo.png" alt="Walt Disney World"/></a>
+					</div>
+				</nav>
+				
+			</header>
+			
+			<!--PARALAX BOX-->
+			<section id="parallax">
+					
+					<div id="pxs_container" class="pxs_container">
+						<div class="pxs_loading">
+							<div>
+								<img src="img/mmloader.jpg" alt="Mobile Magic" />
+								<img class="loader" src="img/ajax-loader.gif" alt="Mobile Magic" />
+							</div>
+						</div>
+						<div id="pxs_wrap">
+							<div class="pxs_bg">
+								<div class="pxs_bg1"></div>
+								<div class="pxs_bg2"></div>
+								<div class="pxs_bg3"></div>
+							</div>
+							<div class="pxs_slider_wrapper">
+
+								<ul class="pxs_slider">
+									<!--one-->
+										<li class="first-frame">
+											<div id="slide0">                                            	
+												<img id="dust0" src="img/copy/dust0.png"  />
+												<img id="co0" src="img/copy/copy0.png"  />
+												<img id="p0" src="img/phone/phone1.png"  />
+                                                <img id="butterfly0" src="img/copy/butterfly.gif" />
+											</div>
+										</li>
+
+									<!--two-->
+
+										<li>
+											<div id="slide1">
+												<img id="markerb" src="img/copy/markerb.png"  />
+												<img id="markerdumbo" src="img/copy/markerdumbo.png"  />
+												<img id="markerma" src="img/copy/markerma.png"  />
+												<img id="markertower" src="img/copy/markertower.png"  />
+												<img id="markerspace" src="img/copy/markerspace.png"  />
+												<img id="co1" src="img/copy/copy1.png"  />
+												<img id="dust1" src="img/copy/dust1.png"  />
+												<img id="p1" src="img/phone/phone2.png"  />
+											</div>
+										</li>
+
+									<!--three-->
+
+										<li>
+											<div id="slide2">
+												<img id="dust2" src="img/copy/dust23.png"  />
+												<div class="pop-map">
+													<img id="map1" src="img/copy/map1.png"  />
+													<img id="map2" src="img/copy/map2.png"  />
+													<img id="map3" src="img/copy/map3.png"  />
+												</div>
+												<img id="p2" src="img/phone/phone3.png"  />
+												<img id="co2" src="img/copy/copy2.png"  />
+											</div>
+										</li>
+
+									<!--four-->
+
+										<li>
+											<div id="slide3">
+												<img id="dust3" src="img/copy/dust23.png"  />
+												<img id="p3" src="img/phone/phone4.png"  />
+												<img id="co3" src="img/copy/copy3.png"  />
+												<img id="cloud2" src="img/copy/cl2.png"  />
+												<img id="cloud1" src="img/copy/cl1.png"  />
+											</div>
+										</li>
+
+									<!--five-->			
+
+										<li>
+											<div id="slide4">
+												<img id="dust4" src="img/copy/dust456.png"  />
+												<img id="p4" src="img/phone/phone5.png"  />
+												<img id="co4" src="img/copy/copy4.png"  />
+											</div>
+										</li>
+
+									<!--six-->
+
+										<li>
+											<div id="slide5">
+												<img id="starback" src="img/copy/starback.png"  />
+												<img id="starbelle" src="img/copy/starbelle.png"  />
+												<img id="stardumbo" src="img/copy/stardumbo.png"  />
+												<img id="stargoof" src="img/copy/stargoof.png"  />
+												<img id="starteapot" src="img/copy/starteapot.png"  />
+												<img id="startower" src="img/copy/startower.png"  />
+												<img id="co5" src="img/copy/copy5.png"  />
+												<img id="dust5" src="img/copy/dust456.png"  />
+												<img id="p5" src="img/phone/phone6.png"  />
+											</div>
+										</li>
+
+									<!--seven-->
+
+										<li>
+											<div id="slide6">
+												<img id="rankmad" src="img/copy/rankmad.png"  />
+												<img id="rank2fam" src="img/copy/rank2fam.png"  />
+												<img id="rank5fam" src="img/copy/rank5fam.png"  />
+												<img id="rank18fam" src="img/copy/rank18fam.png"  />
+												<img id="dust6" src="img/copy/dust456.png"  />
+												<img id="p6" src="img/phone/phone7.png"  />
+												<img id="co6" src="img/copy/copy6.png"  />
+											</div>
+										</li>
+
+									<!--eight-->
+
+										<li>
+											<div id="slide7">
+												<img id="dust7" src="img/copy/dust7.png"  />
+												<img id="p7" src="img/phone/phone8.png"  />
+												<img id="co7" src="img/copy/copy7.png"  />
+												<img id="ex7" src="img/copy/ex7.png"  />
+											</div>
+										</li>
+								</ul>
+							</div>
+							
+						</div>
+						
+					</div>
+
+					<div id="slider-bg"><div id="slider"></div>
+                    
+                    <div id="slider-title">
+                    	<ul>
+                        	<li><a class="slideLink" href="1">welcome</a></li>
+                            <li><a class="slideLink" href="2">wait times</a></li>
+                            <li><a class="slideLink" href="3">maps</a></li>
+                            <li><a class="slideLink" href="4">characters</a></li>
+                            <li><a class="slideLink" href="5">restaurants</a></li>
+                            <li><a class="slideLink" href="6">favorites</a></li>
+                            <li><a class="slideLink" href="7">trivia</a></li>
+                            <li><a class="slideLink" href="8">verizon</a></li>
+                        </ul>
+                    </div>
+                    
+                    </div> 
+                    
+                    
+
+			</section>
+			
+			<!--MAIN CONTENT-->
+			<section id="content">
+				
+				<!--features content-->
+				<div class="features">
+				  <h1>Features</h1>
+					<ul>
+						<a class="slideLink" href="1">
+						<li class="north">Access to all <strong><em>Walt Disney World&reg;</em></strong> &amp;  <strong><em>Disneyland&reg;</em></strong> Resort Guides</li></a>
+						<a class="slideLink" href="2">
+						<li class="fp">Official Park &amp; Attraction Information, wait times and <strong><em>FAST PASS&reg;</em></strong> return times for the Park you’re in</li></a>
+						<a class="slideLink" href="4">
+						<li class="gps"><strong><em>Interactive GPS Guide Maps</em></strong> to help you find some of your favorite characters</li></a>
+						<a class="slideLink" href="6">
+						<li class="trunk">Save your <strong><em>Favorite</em></strong> and start to plan your <strong><em>Disney Parks Vacation</em></strong></li></a>
+						<a class="slideLink" href="7"><li class="q">Play the  <strong><em>Interactive Disney Trivia</em></strong> game  &ndash;  you can even challenge other park guests with your <strong><em>Disney Trivia</em></strong> knowledge!</li></a>
+					</ul>
+				</div>
+				
+				<!--download content-->
+				<div class="download">
+					<h1>Download Now</h1>
+					<p>Ever wanted to have the power of the Disney resorts in your hand right now? Download Mobile Magic today for free and take the magic everywhere!</p>
+					
+					<div class="down-links">
+						<a href=""><img src="img/link-apple.gif" alt="download Apple" /></a>
+						<a href=""><img src="img/link-googlePlay.gif" alt="download Google Play" /></a>
+					</div>
+					
+					<p class="also-v">Also Available on <strong>Verizon</strong> <img src="img/v-cast.jpg" alt="Verizon V Cast" /></p>
+					
+					<p class="sm-txt">Message and data rates may apply for download and use. Availability subject to handset limitations. Coverage not available everywhere. If you're under 18, get your parents' permission first.</p>
+					
+					<div class="social">
+						<a href=""><img src="img/social-fb.jpg" alt="Facebook"></a>
+						<a href=""><img src="img/social-twit.jpg" alt="Twitter"></a>
+					<!--<a href=""><img src="img/social-gplus.jpg" alt="GooglePlus"></a>-->
+					
+					<!--Need to swap the like button out with correct page-->
+						<iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2FDisney&amp;send=false&amp;layout=button_count&amp;width=50&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21&amp;appId=343774492316327" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;" allowTransparency="true"></iframe>
+					</div>
+					
+				</div>
+				
+					<!--verizon box-->
+					<div class="verizon-box">
+						<div class="red">
+							<p>powered by</p>
+							<img src="img/verizon.png" alt="Verizon" />
+						</div>
+
+						<div class="copy">
+							<h2>Verizon <span>Premium Features</span></h2>
+							<ul>
+								<li>Over 100 Disney Parks Videos</li>
+								<li>3 Exclusive games to get you in the mood for magic!</li>
+							</ul>
+						</div>
+					</div>
+				
+				
+			</section>
+			
+			<!--FOOTER-->
+			<footer id="footer">
+				<nav id="foot-nav">
+					<ul>
+						<li class="first"><a href="">About Disney Mobile Magic</a></li>
+						<li><a href="">Disney Parks</a></li>
+						<li><a href="">Mobile Magic</a></li>
+						<li><a href="">FAQ</a></li>
+						<li><a href="">Disney Mobile Magic Terms of Use</a></li>
+						<li><a href="">Privacy Policy</a></li>	
+					</ul>
+					<p>This site is protected by copyright and trademark laws under US and International law.<br />
+					All rights reserved. &copy; 2012 Disney Parks &amp; Resorts</p>
+				</nav>	
+			</footer>
+  	
+		</div>
+		
+	</body>
+
+</html>

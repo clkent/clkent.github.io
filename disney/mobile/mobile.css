@@ -1,0 +1,112 @@
+/* @group Slider bg */
+
+
+
+.loading {
+	display: none;
+}
+
+.slider_wrapper {
+	position: absolute;
+}
+
+#slider-title a.first {
+	color: #818181;
+}
+
+
+ul.pxs_slider {
+	background: none;
+	top: -10px;
+}
+
+/* @end */
+
+/* @group positions */
+
+.slider_wrapper img {
+	float: left;
+	display: inline;
+	position: absolute;
+}
+
+.pxs_container .slider_wrapper li div img#p0 {
+	position: absolute;
+	left: 600px;
+	float: left;
+	display: inline;
+	z-index: 1;
+}
+
+.pxs_container .slider_wrapper li div img#p1 {
+	position: absolute;
+	left: 380px;
+	float: left;
+	display: inline;
+	z-index: 1;
+}
+
+
+.pxs_container .slider_wrapper li div img#p2 {
+	position: absolute;
+	left: 90px;
+	top: 10px;
+	float: left;
+	display: inline;
+	z-index: 2;	
+}
+
+.pxs_container .slider_wrapper li div .pop-map {
+	position: absolute;
+	top: 80px;
+	left: 190px;
+	z-index: 1;
+}
+
+
+.pxs_container .slider_wrapper li div img#p3 {
+	position: absolute;
+	left: 250px;
+	float: left;
+	display: inline;
+	z-index: 1;
+}
+
+
+.pxs_container .slider_wrapper li div img#p4 {
+	position: absolute;
+	left: 170px;
+	float: left;
+	display: inline;
+	z-index: 1;
+}
+
+
+.pxs_container .slider_wrapper li div img#p5 {
+	position: absolute;
+	left: 720px;
+	float: left;
+	display: inline;
+	z-index: 1;
+}
+
+
+.pxs_container .slider_wrapper li div img#p6 {
+	position: absolute;
+	left: 210px;
+	float: left;
+	display: inline;
+	z-index: 1;
+}
+
+
+.pxs_container .slider_wrapper li div img#p7 {
+	position: absolute;
+	left: 0px;
+	float: left;
+	display: inline;
+	z-index: 1;
+}
+
+
+/* @end */
